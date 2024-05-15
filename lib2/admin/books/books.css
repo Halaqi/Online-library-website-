@@ -1,0 +1,16 @@
+.addBook{
+    margin: 10px;
+    display:list-item;
+    background-color: rgb(229 236 231 / 75%);
+    width: 500px;
+    border-radius: 20px;
+}
+.addBook input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+}
+.btn{
+    margin: 5px;
+}

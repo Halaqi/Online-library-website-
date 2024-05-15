@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+body{
+    display: flex;
+    background-image: url("../photos/Content.img"); 
+    background-color: white;
+}
+.UserMenu{
+    background-image: linear-gradient(-45deg,rgba(61, 59, 57, 0.954) 0%, #406065 100%);
+    width: 55px;
+    height: 100vh;
+    overflow: hidden;
+    padding: 20px;
+    transition: 0.5s ;
+}
+.UserMenu:hover{
+    width: 220px;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius:8px ;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    transition: 0.5s;
+}
+ul li a:hover ,:active,.user-data-info .box:hover{
+    background-color: rgba(100, 123, 130, 0.852);
+}
+ul li a i{
+    font-size: 30px;
+}
+ul li a p{
+    margin: 10px;
+}
+.log-out{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.UserContent{
+    background-size: cover;
+    width: 100%;
+    margin: 10px;
+}
+.user-title-info{
+    padding: 20px;
+    margin: 10px 1px;
+    display: flex;
+    text-align: center;
+    background-color:  #25393ce4;
+    border-radius: 5px;
+    justify-content: space-between ;
+    width: 500px;
+}
+.title-info p{
+    font-size: 20px;
+}
+.user-data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.user-data-info .box{
+    background-color: rgba(59, 85, 83, 0.789);
+    border-radius: 5px;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s;
+
+}
+.user-data-info .box i{
+    font-size: 40px;
+}
+.user-data-info .box .data a{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+}
+.UserBookTable {
+    margin-top: 15px;
+    display:contents;
+}
+.table2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table2 th, .table2 td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #605d5d;
+    color: #000101;
+}
+.table2 th {
+    background-color: #000000cd;
+    color: #f6f6f6;
+    font-size: 23px;
+}
+.table2 tr {
+    background-color: #e2e2e2dd;
+}
+.table2 tr:hover {
+    background-color: #9a9fa1;
+}
+.btn {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-success {
+    background-color: #0055ffd8;
+    color: #fff;
+}
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.messageBox {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+}
+form{
+    background-color: #37585855;
+    height: 200px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+.messageBox input[type="text"] {
+    width: 400px; 
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    color: #393535;
+    margin: 10px;
+    background-color: #ffffffe3;
+}
+
+
+.messageBox .sendBtn {
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #007bff; 
+    color: #ffffff;
+    border: none;
+    border-radius:  5px; 
+    cursor: pointer;
+    outline: none;
+    
+}
+.messageBox .sendBtn:hover {
+    background-color: #0056b3;
+}
+
+.myListTable{
+    margin: 15px;
+}
+.listTable th{
+    color: rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.listTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.listTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #cdcdcdb5;
+    color: #000101;
+
+}
+
+.listTable th {
+    background-color: #000000c5;
+}
+
+/* .listTable tbody tr:nth-child(even) {
+    background-color: #545b56e9;
+} */
+
+.listTable tbody tr:hover {
+    background-color: #ddd;
+}
